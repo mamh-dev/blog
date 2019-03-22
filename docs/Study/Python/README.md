@@ -1,3 +1,7 @@
+---
+tags: ["study", "python"]
+---
+
 # Python
 
 ## 개요

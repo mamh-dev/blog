@@ -1,5 +1,5 @@
 // SideBar 생성을 위한 라우트 리스트
-const routes = ['Introduce', 'Study']
+const routes = ['introduce', 'study']
 const createSidebar = () => {
     const sidebar = {}
     // 각 디렉토리에 정의된 Sidebar 설정을 로드합니다.
@@ -16,8 +16,9 @@ module.exports = {
     themeConfig: {
         // Navigation, Sidebar 노출을 위한 라우트 설정
         nav: [
-            { text: 'Introduce', link: '/Introduce/' },
-            { text: 'Study', link: '/Study/' }
+            { text: 'Introduce', link: '/introduce/' },
+            { text: 'Study', link: '/study/' },
+            { text: 'Tags', link: '/tags/' }
         ],
         sidebar: createSidebar()    // 각 상위 routes의 하위 routes가 포함된 sidebar config 생성
     },
