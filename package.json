@@ -1,0 +1,17 @@
+{
+  "name": "vuepress-test",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs"
+  },
+  "repository": "https://github.com/mamh-dev/vuepress-test.git",
+  "author": "mhma <mhma@cookapps.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^0.14.10"
+  },
+  "resolutions": {
+    "webpack-dev-middleware": "3.6.0"
+  }
+}
